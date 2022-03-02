@@ -1,0 +1,37 @@
+﻿@page
+@model Authentification.Pages.admin.Livres.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>LES LIVRES </h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Livre[0].Nom)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Livre) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.LivreID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.LivreID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.LivreID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br/>
+<button ><a asp-page="/admin/Logout" >Se deconnecter</a></button>
