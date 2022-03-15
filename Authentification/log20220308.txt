@@ -1,0 +1,79 @@
+2022-03-08 14:22:47.180 +01:00 [INF] Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-08 14:22:47.724 +01:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2022-03-08 14:22:47.926 +01:00 [INF] User profile is available. Using 'C:\Users\oumai\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-03-08 14:22:48.856 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-08 14:22:48.860 +01:00 [INF] Hosting environment: Development
+2022-03-08 14:22:48.863 +01:00 [INF] Content root path: C:\Users\oumai\OneDrive\Documents\ILISI2\PHASE 3\.NET\Authentification\Authentification
+2022-03-08 14:22:49.000 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/  
+2022-03-08 14:22:49.089 +01:00 [INF] Executing endpoint '/Index'
+2022-03-08 14:22:49.274 +01:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2022-03-08 14:22:49.295 +01:00 [INF] Executing handler method Authentification.Pages.IndexModel.OnGet - ModelState is "Valid"
+2022-03-08 14:22:49.298 +01:00 [INF] Executed handler method OnGet, returned result .
+2022-03-08 14:22:49.305 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-03-08 14:22:49.308 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-03-08 14:22:49.505 +01:00 [INF] Executed page /Index in 220.1162ms
+2022-03-08 14:22:49.511 +01:00 [INF] Executed endpoint '/Index'
+2022-03-08 14:22:49.525 +01:00 [INF] Request finished in 535.4829ms 200 text/html; charset=utf-8
+2022-03-08 14:22:49.659 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/lib/bootstrap/dist/css/bootstrap.min.css  
+2022-03-08 14:22:49.664 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/lib/jquery/dist/jquery.min.js  
+2022-03-08 14:22:49.668 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2022-03-08 14:22:49.693 +01:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2022-03-08 14:22:49.696 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2022-03-08 14:22:49.696 +01:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2022-03-08 14:22:49.710 +01:00 [INF] Request finished in 45.4439ms 304 application/javascript
+2022-03-08 14:22:49.713 +01:00 [INF] Request finished in 45.0094ms 304 application/javascript
+2022-03-08 14:22:49.713 +01:00 [INF] Request finished in 54.3461ms 304 text/css
+2022-03-08 14:22:49.762 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2022-03-08 14:22:49.827 +01:00 [INF] The file /js/site.js was not modified
+2022-03-08 14:22:49.830 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/css/site.css  
+2022-03-08 14:22:49.833 +01:00 [INF] Request finished in 71.5355ms 304 application/javascript
+2022-03-08 14:22:49.847 +01:00 [INF] The file /css/site.css was not modified
+2022-03-08 14:22:49.851 +01:00 [INF] Request finished in 20.8888ms 304 text/css
+2022-03-08 14:22:55.577 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/admin  
+2022-03-08 14:22:55.601 +01:00 [INF] Executing endpoint '/admin/Index'
+2022-03-08 14:22:55.628 +01:00 [INF] Route matched with {page = "/admin/Index", action = "", controller = ""}. Executing page /admin/Index
+2022-03-08 14:22:55.632 +01:00 [INF] Executing handler method Authentification.admin.IndexModel.OnGet - ModelState is "Valid"
+2022-03-08 14:22:55.640 +01:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-03-08 14:22:55.674 +01:00 [INF] Executed page /admin/Index in 42.4199ms
+2022-03-08 14:22:55.690 +01:00 [INF] Executed endpoint '/admin/Index'
+2022-03-08 14:22:55.699 +01:00 [INF] Request finished in 122.953ms 200 text/html; charset=utf-8
+2022-03-08 14:23:18.110 +01:00 [INF] Request starting HTTP/2.0 POST https://localhost:44328/admin application/x-www-form-urlencoded 207
+2022-03-08 14:23:18.126 +01:00 [INF] Executing endpoint '/admin/Index'
+2022-03-08 14:23:18.129 +01:00 [INF] Route matched with {page = "/admin/Index", action = "", controller = ""}. Executing page /admin/Index
+2022-03-08 14:23:18.179 +01:00 [INF] Executing handler method Authentification.admin.IndexModel.OnPost - ModelState is "Valid"
+2022-03-08 14:23:18.191 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2022-03-08 14:23:18.196 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectResult.
+2022-03-08 14:23:18.199 +01:00 [INF] Executing RedirectResult, redirecting to /admin/Livres.
+2022-03-08 14:23:18.203 +01:00 [INF] Executed page /admin/Index in 70.6184ms
+2022-03-08 14:23:18.206 +01:00 [INF] Executed endpoint '/admin/Index'
+2022-03-08 14:23:18.211 +01:00 [INF] Request finished in 102.8047ms 302 
+2022-03-08 14:23:18.228 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/admin/Livres  
+2022-03-08 14:23:18.265 +01:00 [INF] Authorization was successful.
+2022-03-08 14:23:18.269 +01:00 [INF] Executing endpoint '/admin/Livres/Index'
+2022-03-08 14:23:18.277 +01:00 [INF] Route matched with {page = "/admin/Livres/Index", action = "", controller = ""}. Executing page /admin/Livres/Index
+2022-03-08 14:23:18.287 +01:00 [INF] Executing handler method Authentification.Pages.admin.Livres.IndexModel.OnGetAsync - ModelState is "Valid"
+2022-03-08 14:23:18.304 +01:00 [INF] Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-08 14:23:18.665 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+2022-03-08 14:23:18.824 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2022-03-08 14:23:18.927 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-03-08 14:23:18.930 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-03-08 14:23:18.964 +01:00 [INF] Executed page /admin/Livres/Index in 679.4494ms
+2022-03-08 14:23:18.966 +01:00 [INF] Executed endpoint '/admin/Livres/Index'
+2022-03-08 14:23:18.974 +01:00 [INF] Request finished in 745.8958ms 200 text/html; charset=utf-8
+2022-03-08 14:23:31.596 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/admin/Livres/api/controller  
+2022-03-08 14:23:31.608 +01:00 [INF] Request finished in 11.4845ms 404 
+2022-03-08 14:24:12.508 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44328/api/controller  
+2022-03-08 14:24:12.518 +01:00 [INF] Executing endpoint 'Authentification.Controller.Ctrller.Get (Authentification)'
+2022-03-08 14:24:12.543 +01:00 [INF] Route matched with {action = "Get", controller = "Ctrller", page = ""}. Executing controller action with signature System.Collections.Generic.IList`1[Authentification.Livre] Get() on controller Authentification.Controller.Ctrller (Authentification).
+2022-03-08 14:24:12.591 +01:00 [INF]  executing ..... 
+2022-03-08 14:24:12.655 +01:00 [INF] Entity Framework Core 5.0.14 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-08 14:24:12.702 +01:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."LivreID", "l"."Nom"
+FROM "Livres" AS "l"
+2022-03-08 14:24:12.744 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Authentification.Livre, Authentification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-08 14:24:12.877 +01:00 [INF] Executed action Authentification.Controller.Ctrller.Get (Authentification) in 289.2264ms
+2022-03-08 14:24:12.880 +01:00 [INF] Executed endpoint 'Authentification.Controller.Ctrller.Get (Authentification)'
+2022-03-08 14:24:12.886 +01:00 [INF] Request finished in 378.5118ms 200 application/json; charset=utf-8
